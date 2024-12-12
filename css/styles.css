@@ -113,9 +113,23 @@ body {
     height: 400px;
 }
 
-#sectionAbout {
+.about-container {
     text-align: center;
     padding-bottom: 20px;
+}
+
+.bio {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#name.horizTranslate {
+    transition: 5s;
+    margin-left: 45%;
 }
 
 #experience-title {
@@ -184,4 +198,13 @@ img {
 /* Class to trigger the fade-in effect */
 img.fade-in {
 opacity: 1;
+}
+
+#sectionContact {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#sectionContact.fade-in {
+    opacity: 1;
 }
