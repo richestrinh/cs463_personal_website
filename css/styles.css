@@ -113,18 +113,33 @@ body {
     height: 400px;
 }
 
-.dtna-pic {
-    width: 400px;
-    height: 400px;
-}
-
-.mio-pic {
-    width: 400px;
-    height: 400px;
-}
-
-
 #sectionAbout {
     border-style: dashed;
     border-color: red;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#experience-title {
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.work-experience-row {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 300px;
+}
+
+.work-experience-row img {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 50%;
+}
+.experience-item h4 {
+    padding-bottom: 16px;
 }
