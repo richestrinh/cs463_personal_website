@@ -174,3 +174,14 @@ body {
   .contact-container button[type="submit"]:hover {
     background-color: #45a049; /* Darker green on hover */
   }
+
+/* Initial state of images */
+img {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+/* Class to trigger the fade-in effect */
+img.fade-in {
+opacity: 1;
+}
