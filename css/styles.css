@@ -143,3 +143,34 @@ body {
 .experience-item {
     padding-bottom: 12px;
 }
+
+/* Center the Contact Me section */
+.contact-container h1 {
+    padding-bottom: 10px;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content */
+  }
+  
+  /* Style the Submit button */
+  .contact-container button[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 15px 20px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Increase font size */
+    margin-top: 20px; /* Add some margin on top */
+  }
+  
+  .contact-container button[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
