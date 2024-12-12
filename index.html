@@ -16,13 +16,7 @@
       </div>
       <ul class="navbar-menu" id="navbarMenu">
         <li><a href="#">About</a></li>
-        <li class="dropdown">
-          <a href="#">Experience</a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Internships</a></li>
-            <li><a href="#">Projects</a></li>
-          </ul>
-        </li>
+        <li><a href="#">Experience</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
@@ -53,9 +47,11 @@
           <h1>Experience</h1>
         </div>
 
-        <div class="work-experience-row">
+        <div class="experience-row">
           <div class="experience-item">
-            <h4>Test Management Engineer Intern @ Daimler Truck North America</h4>
+            <h4>
+              Test Management Engineer Intern @ Daimler Truck North America
+            </h4>
             <img
               class="dtna-pic"
               src="assets/dtna.png"
@@ -64,26 +60,36 @@
           </div>
           <div class="experience-item">
             <h4>IT Software Developer @ Made in Oregon (yes the gift shop)</h4>
-              <img
-                class="mio-pic"
-                src="assets/mio.png"
-                alt="Made in Oregon logo"
-            />    
+            <img
+              class="mio-pic"
+              src="assets/mio.png"
+              alt="Made in Oregon logo"
+            />
           </div>
         </div>
 
-        <div class="project-row">
-          <div>
-            <h1>Projects</h1>
-          </div>
-          <div>
+        <div class="experience-row">
+          <div class="experience-item">
             <h4>AirNest</h4>
-            <h4>ChocAn Group Project</h4>
+            <img
+              class="airnest-pic"
+              src="assets/airnest.jpg"
+              alt="AirNest logo"
+            />
           </div>
+          <div class="experience-item">
+            <h4>ChocAn Group Project</h4>
+            <img
+              class="chocan-pic"
+              src="assets/chocan.jpg"
+              alt="ChocAn Example Logo"
+            />
+          </div> 
+        </div>
+
       </div>
     </section>
 
-    
     <section id="sectionContact">
       <div class="contact-container">
         <div class="row">
@@ -95,29 +101,50 @@
             <h2>Sign Up Form</h2>
             <!-- Name Input -->
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Full Name" required />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Full Name"
+              required
+            />
             <br /><br />
             <!-- Email Input -->
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="name@pdx.edu" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="name@pdx.edu"
+              required
+            />
             <br /><br />
-      
+
             <label for="human">Favorite Show:</label>
-            <input type="human" id="human" name="human" placeholder="Are you a human?" required />
+            <input
+              type="human"
+              id="human"
+              name="human"
+              placeholder="Are you a human?"
+              required
+            />
             <br /><br />
-      
+
             <label for="human">What can I help you with:</label>
-            <input type="human" id="human" name="human" placeholder="psss I take cashapp" required />
+            <input
+              type="human"
+              id="human"
+              name="human"
+              placeholder="psss I take cashapp"
+              required
+            />
             <br /><br />
             <!-- Submit Button -->
             <button type="submit">Submit</button>
           </form>
-
         </div>
       </div>
     </section>
-
-
 
     <script src="./js/app.js"></script>
   </body>
